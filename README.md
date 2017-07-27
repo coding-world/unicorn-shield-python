@@ -2,17 +2,16 @@
 
 **Install from Github clone**
 
-```
-git clone https://github.com/coding-world/unicorn-shield-python
-cd unicorn-shield-python/
-sudo apt-get install python-dev python-setuptools
-cd rpi-ws281x
-sudo python setup.py install
-cd ../..
-cd UnicornShield
-sudo python setup.py install
-cd ../..
-```
+
+```git clone https://github.com/coding-world/unicorn-shield-python```
+```cd unicorn-shield-python/```
+```sudo apt-get install python-dev python-setuptools```
+```cd rpi-ws281x```
+```sudo python setup.py install```
+```cd ../..```
+```cd UnicornShield```
+```sudo python setup.py install```
+```cd ../..```
 
 
 
