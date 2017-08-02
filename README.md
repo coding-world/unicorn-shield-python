@@ -4,6 +4,7 @@
 
 **Install from Github clone**
 
+```sudo pip install gpiozero```
 
 ```git clone https://github.com/coding-world/unicorn-shield-python```
 
