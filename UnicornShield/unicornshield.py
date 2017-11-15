@@ -4,11 +4,11 @@ import time
 import RPi.GPIO as gpio
 
 # LEDs
-leftEye = gpiozero.LED(21)
-rightEye = gpiozero.LED(20)
+leftEye = gpiozero.LED(17)
+rightEye = gpiozero.LED(27)
 
 # Button
-button = gpiozero.Button(12)
+button = gpiozero.Button(23)
 
 
 # LED strip configuration:
@@ -52,7 +52,7 @@ def measure(pin):
     return time.time() - startTime
 
 def nose():
-    return measure(16)
+    return measure(22)
 
 
 
