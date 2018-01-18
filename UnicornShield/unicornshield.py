@@ -105,7 +105,7 @@ def setPixel(x, r, g, b):
 
     """
     # Because of wrong numbering
-    positons = [0,1,2,3,7,5,6,8,4]
+    positons = [0,1,2,3,4,5,6,7,8]
     ws2812.setPixelColorRGB(positons[x], r, g, b)
 
 
